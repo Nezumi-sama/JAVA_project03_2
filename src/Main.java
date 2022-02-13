@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] ards){
+    public static void main(String[] ards) {
         BmiService bmi = new BmiService();
         int weightt = 80;
         float heightt = 1.6f;
