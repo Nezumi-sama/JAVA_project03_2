@@ -1,5 +1,8 @@
 public class BmiService {
     public float calculate(int weight, float height) {
-        return weight / (height * height);
+        float imt;
+//расчет ИМТ
+        imt = weight / (height * height);
+        return imt;
     }
 }
